@@ -52,6 +52,10 @@ body {
     background-color: #CED4DA;
 }
 
+h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
 .flex1 {
     display: flex;
 }
@@ -146,6 +150,7 @@ h5, h6, h6{
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
+        
     }
    
 .flex2{
