@@ -1,33 +1,33 @@
 body {
      font-family: arial;
-        /* font-size: 12px */
-        margin: 0px;
+     margin: 0px;
 }
 
-/* .main {
-    background-color : lightsteelblue;
-} */
 
-.header{
-    background-color: #e9ecef;
-    padding: 1em;
-    text-align: center;
+ .header{
+  background-color: #CED4DA;
+  padding: 10px;
+  position: fixed;
 }
 
 .menu li {
-    list-style: none;
+    list-style-type: none;
+    width: 485px ;
 }
 
+/* .menu {
 
-.menu a {
-    padding: 1em;
-    display: block;
-    width: 200px;
-}
+} */
+
+ /* .menu a {
+
+ } */
+
 
 .menu a:hover {
-    background-color : lightsteelblue;
-}
+/* background-color: blue; */
+} 
+
 
 .head {
     background-color: #DEE2E6;
@@ -51,6 +51,10 @@ body {
 .cityContent {
     padding: 1em;
     background-color: #CED4DA;
+}
+
+h2, h3, h4{
+    font-size: larger;
 }
 
 h2, h3, h4, h5, h6{
@@ -95,16 +99,9 @@ h2, h3, h4, h5, h6{
       background-color: #6C757D;
   }
 
-.place{
-    text-align: center;
-}
 
 h5, h6, h6{
     font-size: small;
-}
-
-.places{
-    width: 430px;
 }
 
 .space{
@@ -125,16 +122,6 @@ h5, h6, h6{
     margin-left: 10px;
 }
 
-
-
-.Wikipedia1{
-    justify-content: left;
-}
-
-.Wikipedia2{
-    justify-content: right;
-}
-
   @media(min-width:960px){
 
     .menu {
@@ -148,11 +135,9 @@ h5, h6, h6{
 }
 
 @media screen and (max-width: 688px) {
-
-     body{
-        font-size: 12px;
-        width: 300px;
-        margin-right: 0px;
+    
+    body{
+        /* margin-right: 0px; */
 }
 
 .flex1{
@@ -160,8 +145,6 @@ h5, h6, h6{
 }
 
     .image {
-        display: flex;
-        /* justify-content: center; */
         margin-bottom: 30px;
         place-items: centre;
     }
@@ -181,16 +164,11 @@ h5, h6, h6{
 }
 
 .language{
-    /* align-self: center; */
     place-items: center;
 }
 
-p {
-    width: 240px;
-}
-
 .table {
-    width: 80%;
+    width: 90%;
 }
 
 .head{
@@ -198,32 +176,13 @@ p {
 }
 
 .myname{
-    width: 200px;
     text-align: center;
-}
-
-.headimg{
-    width: 150px;
+    font-size: larger;
 }
 
 .image{
-    width: 200px;
     align-self: center;
-}
-
-.main {
-    width: 220px;
     margin-left: 20px;
-}
-
-.places{
-    width: 280px;
-    
-}
-
-
-h4 {
-    margin-right: 40px;
 }
 
 }
