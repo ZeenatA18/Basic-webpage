@@ -136,8 +136,8 @@ h5, h6, h6{
 
 @media screen and (max-width: 688px) {
     
-    body{
-        /* margin-right: 0px; */
+.body{
+    background-color: darkcyan;
 }
 
 .flex1{
