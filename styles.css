@@ -4,7 +4,7 @@ body {
 }
 
 
- .header{
+ /* .header{
   background-color: #CED4DA;
   padding: 10px;
   position: fixed;
@@ -13,21 +13,47 @@ body {
 .menu li {
     list-style-type: none;
     width: 485px ;
-}
-
-/* .menu {
-
 } */
 
- /* .menu a {
+* {
+/* padding: 0;
+margin: 0; */
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
 
- } */
+nav{
+    background: #CED4DA;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
 
+nav ul{
+    float: right;
+    margin-right: 20px;
+    justify-self: center;
+}
 
-.menu a:hover {
-/* background-color: blue; */
-} 
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
 
+nav ul li a{
+color: black;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 33px;
+}
+
+a.active, a:hover{
+    background: azure;
+    transition: .5s;
+}
 
 .head {
     background-color: #DEE2E6;
@@ -45,7 +71,7 @@ body {
 
 .headimg {
     width: 300px;
-    height: 150px;
+    height: 200px;
 }
 
 .cityContent {
@@ -80,18 +106,22 @@ h2, h3, h4, h5, h6{
   .language{
       padding: 1em;
       background-color: #ADB5BD;
+      text-align: center;
   }
 
   table{
       border-collapse: collapse;
       padding: 50px;
-      width: 100%;
+      width: 80%;
       margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   td , tr {
       border: solid;
       padding: 10px;
+      text-align: center;
   }
 
   .historic{
@@ -122,6 +152,8 @@ h5, h6, h6{
     margin-left: 10px;
 }
 
+
+
   @media(min-width:960px){
 
     .menu {
@@ -130,6 +162,18 @@ h5, h6, h6{
 
     .places{
         display: flex;
+    }
+
+    .Wikipedia1{
+        width: 290px;
+    }
+    
+    .Wikipedia2{
+        width: 250px;
+    }
+    
+    .Wikipedia3{
+        width: 250px;
     }
 
 }

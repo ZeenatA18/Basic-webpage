@@ -1,0 +1,151 @@
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.headimg{
+    width: 300px;
+    height: 150px;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+
+.head{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 300px;
+    height: 150px;
+}
+
+.heading1{
+    text-align: center;
+}
+
+.city{
+    display: flex;
+}
+
+.city p{
+   padding-left: 20px;
+   text-align: justify;
+   width: 900px;
+}
+
+.heading2{
+    text-align: center;
+}
+
+.language p{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 97%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td , tr {
+    border: solid;
+    padding: 10px;
+}
+
+.placeimg{
+    width: 170px;
+    height: 150px;
+}
+
+.placeimg1{
+    width: 170px;
+    height: 150px;
+}
+
+.placeimg{
+    float: left;
+}
+
+.placeimg1{
+    float: left;
+}
+
+h5, h6 {
+    font-size: small;
+    text-align: center;
+}
+
+.col-4{
+    width: 400px;
+}
+
+.placeimg{
+    margin-right:  20px;
+}
+
+.placeimg1{
+    
+    margin-left: 40px;
+    padding-right: 20px;
+    
+}
+
+.place1 p {
+margin-left: 30px;
+width: 400px;
+}
+.place2 img{
+margin-left: 50px;
+width:max-content;
+}
+@media(min-width:960px){
+
+    .places{
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 688px) {
+    
+    .container{
+        background-color: darkcyan;
+     }
+
+     .head{
+         flex-direction: column;
+     }
+
+     .image{
+        align-self: center;
+     }
+
+     .city{
+        flex-direction: column;
+    }
+
+    .city p{
+        padding-left: 20px;
+        text-align: justify;
+        width: 400px;
+     }
+
+     table{
+         align-self: center;
+     }
+
+     .placeimg{
+        float: right;
+    }
+
+    .placeimg1{
+        float: left;
+    }
+}
