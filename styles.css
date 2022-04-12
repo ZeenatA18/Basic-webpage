@@ -25,7 +25,7 @@ box-sizing: border-box;
 
 nav{
     background: #CED4DA;
-    height: 60px;
+    height: 40px;
     width: 100%;
     position: fixed;
 }
@@ -33,26 +33,26 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
-    justify-self: center;
+    justify-content: center;
 }
 
 nav ul li{
     display: inline-block;
-    line-height: 60px;
+    line-height: 10px;
     margin: 0 5px;
 }
 
 nav ul li a{
 color: black;
-font-size: 17px;
+font-size: 20px;
 text-transform: uppercase;
 padding: 7px 13px;
-border-radius: 33px;
+border-radius: 30px;
 }
 
 a.active, a:hover{
     background: azure;
-    transition: .5s;
+    transition: .10s;
 }
 
 .head {
@@ -227,6 +227,16 @@ h5, h6, h6{
 .image{
     align-self: center;
     margin-left: 20px;
+}
+
+nav ul li a{
+    font-size: smaller;
+    padding: 4px ;
+}
+
+nav{
+    height: 10px;
+    padding-bottom: 40px;
 }
 
 }
