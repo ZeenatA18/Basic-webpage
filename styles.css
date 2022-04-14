@@ -3,18 +3,6 @@ body {
      margin: 0px;
 }
 
-
- /* .header{
-  background-color: #CED4DA;
-  padding: 10px;
-  position: fixed;
-}
-
-.menu li {
-    list-style-type: none;
-    width: 485px ;
-} */
-
 * {
 /* padding: 0;
 margin: 0; */
@@ -71,7 +59,7 @@ a.active, a:hover{
 
 .headimg {
     width: 300px;
-    height: 200px;
+    height: 180px;
 }
 
 .cityContent {
@@ -152,6 +140,13 @@ h5, h6, h6{
     margin-left: 10px;
 }
 
+.makespace{
+    height: 40px;
+}
+.makespace{
+    height: 40px;
+    background-color: #CED4DA;
+}
 
 
   @media(min-width:960px){
@@ -231,12 +226,12 @@ h5, h6, h6{
 
 nav ul li a{
     font-size: smaller;
-    padding: 4px ;
+    padding: 0px ;
 }
 
 nav{
     height: 10px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 }
